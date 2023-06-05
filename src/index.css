@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+
+.todos{
+  width: 600px;
+  margin: 0 auto;
+}
+
+input,textarea,button#add{
+  width: 100%;
+  padding: 5px 6px;
+  
+}
+.onDelete:hover{
+  background: #FF4500;
+  border: none;
+  padding: 7px 10px;
+  border-radius: 12%;
+}
+.onMarlAllDone:hover{
+  background:#1E90FF ;
+  border: none;
+  padding: 7px 10px;
+  border-radius: 12%;
+}
